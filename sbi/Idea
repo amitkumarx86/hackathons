@@ -1,0 +1,50 @@
+**Cheque Vlidation System**<br>
+Our system is designed to ***retrive and validate*** the information from the Check with 99% accuracy. 
+<br>
+<br>
+**Description of System**<br>
+This will be a desktop/mobile app using which we will scan the check and do the following things:<br>
+1.  First Get the following things:<br>
+		  a.Account Number<br>
+		 b.Name<br>
+		 c.Bank Code<br>
+		 d.Amount<br>
+		 e.Check number<br>
+		 f.Date<br>
+		 g.Type of Cheque<br>
+		
+2.  Cross check the money in words and digits <br>
+4.  Check the signature of person<br>
+5.  And then inspect whether cheque is bounced or not.<br>
+6.  Then do the submission.
+<br>
+<br>
+**How it will work ?**<br>
+We will train our system for handwriting recognition and signature recognitino(using pattern recognition). 
+<br>This is a very practical solution with high accuracy because the traning data's domain is narrow.<br>
+1. We will get the features(amount in words, amount in digits, signature, bank code, cheque number, date, branch) from the cheque using machine perception.<br>
+2.  We will train the deep learning model on these features.<br>
+3.  We will then get the matching score using our trained model.<br>
+4.  After that we will do validation of following things:<br>
+	a.Check validity<br>
+	b.Signature Accuracy<br>
+	c.Amount matching in words and digits<br>
+	d.**Type of Check** <br>
+		<br>
+**Note**<br>
+		We will cover hindi and englist both languages.
+<br>
+
+**Comonents**<br>
+This product has two components, 1. Desktop app 2. Mobile app
+<br>
+<br>
+**Limitation**<br>
+Handwriting must be in readable condition.
+<br>
+
+**Technologies Used**<br>
+python, deep learning, jquery mobile, android, java, css, html
+<br><br>
+**Note**
+Please find the template of the product.

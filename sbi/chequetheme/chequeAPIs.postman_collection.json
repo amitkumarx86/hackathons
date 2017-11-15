@@ -1,0 +1,159 @@
+{
+	"variables": [],
+	"info": {
+		"name": "chequeAPIs_27_10_17",
+		"_postman_id": "efa1623c-effc-dda4-c972-00f69cb608a9",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "insertCheque",
+			"request": {
+				"url": "http://apiplatformcloudse-gseapicssbisecond-uqlpluu8.srv.ravcloud.com:8001/InsertChqDetails",
+				"method": "POST",
+				"header": [
+					{
+						"key": "CHQ_NUM",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "TEAM_ID",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "MIME_TYPE",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "api-key",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "AMOUNT_WORDS",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "AMOUNT_DIGIT",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "CHQ_DATE",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "MICR_CODE",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "ACT_TYPE",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "SAN_NO",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "BEN_NAME",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "PAYEE_AC_NO",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "AMT_MATCH",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "CHQ_STALE",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "ENCODING",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "IMG_SIZE",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": ""
+					}
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getChequeByTeamID/ChqNum",
+			"request": {
+				"url": "http://apiplatformcloudse-gseapicssbisecond-uqlpluu8.srv.ravcloud.com:8001/ChequeInfo/1000/989898",
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getChequeByTeamID",
+			"request": {
+				"url": "http://apiplatformcloudse-gseapicssbisecond-uqlpluu8.srv.ravcloud.com:8001/ChequeInfo/1000",
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getChequeByTeamID/ChqNum/Image",
+			"request": {
+				"url": "http://apiplatformcloudse-gseapicssbisecond-uqlpluu8.srv.ravcloud.com:8001/ChequeInfo/1000/989898/CHEQUE_IMAGE",
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}

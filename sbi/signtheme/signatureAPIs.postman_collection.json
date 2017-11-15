@@ -1,0 +1,114 @@
+{
+	"variables": [],
+	"info": {
+		"name": "signatureAPIs_27_10_17",
+		"_postman_id": "2b5e61af-4973-6293-a441-a6172fe26dfa",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "insertSignature",
+			"request": {
+				"url": "http://apiplatformcloudse-gseapicssbisecond-uqlpluu8.srv.ravcloud.com:8001/DigitalSignCreate",
+				"method": "POST",
+				"header": [
+					{
+						"key": "TEAM_ID",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "ACCOUNT_NO",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "NAME",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "MIME_TYPE",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "api-key",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "ENCODING",
+						"value": "",
+						"description": ""
+					},
+					{
+						"key": "IMG_SIZE",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "file",
+					"file": {
+						"src": ""
+					}
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getSignByTeam",
+			"request": {
+				"url": "http://apiplatformcloudse-gseapicssbisecond-uqlpluu8.srv.ravcloud.com:8001/DigitalSignInfo/1000",
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getSignByTeam/AccountNo",
+			"request": {
+				"url": "http://apiplatformcloudse-gseapicssbisecond-uqlpluu8.srv.ravcloud.com:8001/DigitalSignInfo/1000/12341234123",
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "getSignByTeam/AccountNo/Signature",
+			"request": {
+				"url": "http://apiplatformcloudse-gseapicssbisecond-uqlpluu8.srv.ravcloud.com:8001/DigitalSignInfo/1000/12341234123/SIGNATURE",
+				"method": "GET",
+				"header": [
+					{
+						"key": "api-key",
+						"value": "",
+						"description": ""
+					}
+				],
+				"body": {},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
